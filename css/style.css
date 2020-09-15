@@ -1,0 +1,94 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* -------------- */
+
+.header__block .link {
+	color: #0f0;
+}
+.header__block .list {
+	font-size: 30px;
+}
+.main__title.title-main {
+	font-size: 60px;
+	color: darkgreen;
+}
+.main__text > p {
+	color: darkorange;
+}
+
+.main__text .main__text-p p {
+	color: red;
+}
+.main__text,
+.main__text-p {
+	font-size: 10px;
+}
+.product + span {
+	font-size: 36px;
+	color: #da0cad;
+}
+.main__products a {
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(92, 8, 248);
+}
+.main__products + span {
+	text-decoration: underline;
+	font-size: 26px;
+	color: darkred;
+}
+.main__products a {
+	font-size: 26px;
+}
+.footer {
+	font-size: 28px;
+}
+.footer__list .footer__link {
+	color: #000333;
+}
+.footer__link.link-bottom {
+	font-size: 40px;
+}
+.main__products p {
+	color: red;
+}
+.main__products p span {
+	color: darkslateblue;
+}
+
+.main__products p a {
+	text-decoration: line-through;
+}
+.link.link-second {
+	font-size: 12px;
+	color: red;
+}
