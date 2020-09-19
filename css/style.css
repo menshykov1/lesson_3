@@ -29,6 +29,10 @@ h6 {
 img {
 	vertical-align: top;
 }
+html,
+body {
+	font-size: 14px;
+}
 /* -------------- */
 
 .header__block .link {
